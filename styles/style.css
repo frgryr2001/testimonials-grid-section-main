@@ -1,0 +1,161 @@
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Barlow Semi Condensed', sans-serif;
+    font-size: 13px;
+    background-color:hsl(210, 46%, 95%);
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.container{
+    max-width: 1200px;
+   
+    padding: 10px;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 20px;
+}
+.card{
+    border-radius: 10px;
+    box-shadow: 0px 2px 10px 4px rgba(0,0,0,0.075);
+    
+}
+.wrapper{
+    padding: 30px 50px 20px 40px;
+    position: relative;
+  
+}
+.bg-quotation{
+    position: absolute;
+    top: 0;
+    right: 120px;
+    z-index: -1;
+}
+.card:nth-child(1){
+    grid-column: 1/3;
+    background-color:hsl(263, 55%, 52%);
+    z-index:0;
+   
+}
+.card:nth-child(2){
+    background-color:hsl(217, 19%, 35%);
+   
+}
+.card:nth-child(3){
+    background-color: hsl(0, 0%, 100%);
+
+
+}
+.card:nth-child(4){
+    grid-column: 2/4;
+    background-color:hsl(219, 29%, 14%);
+
+}
+.card:last-child{
+    grid-column: 4/5;
+    grid-row: 1/span 2;
+    background-color: hsl(0, 0%, 100%);
+}
+.card .card__name--dark{
+    color: hsl(219, 29%, 14%)
+}
+.card .card__job--dark{
+    color:hsl(219, 29%, 14%);
+    opacity: 0.5;
+}
+.card .text-dark{
+    color:hsl(219, 29%, 14%);
+}
+.card-header{
+    display: flex;
+    gap: 10px;
+}
+.card__img{
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    
+    object-fit: cover;
+}
+.card_img--rounded{
+    border: 2px solid hsl(263, 87%, 73%);
+}
+.card__name{
+    color:hsl(0, 0%, 100%);
+    font-weight: 500;
+   
+}
+.card__job{
+    color:hsl(0, 0%, 100%);
+    opacity: 0.5;
+}
+.card__info{
+    display: flex;
+    flex-direction: column;
+}
+.card__text{
+    color:hsl(0, 0%, 100%);
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 1.4;
+    margin: 20px 0px;
+ 
+}
+
+.card_description{
+    color: hsl(0, 0%, 81%);
+    line-height: 1.6;
+    
+}
+.card .card_description--dark{
+    color: hsl(217, 19%, 35%);
+}
+.site-footer{
+    position: relative;
+}
+.attribution a{
+    color: hsl(228, 45%, 44%); 
+}
+
+@media screen and (max-width: 375px){
+    .container{
+        grid-template-columns: 1fr;
+  
+    }
+    .card:nth-child(1){
+        grid-column: 1;
+        background-color:hsl(263, 55%, 52%);
+        z-index:0;
+       
+    }
+    .card:nth-child(2){
+        background-color:hsl(217, 19%, 35%);
+       
+    }
+    .card:nth-child(3){
+        background-color: hsl(0, 0%, 100%);
+    }
+    .card:nth-child(4){
+        grid-column: 1;
+        background-color:hsl(219, 29%, 14%);
+    
+    }
+    .card:last-child{
+        grid-column: 1;
+        grid-row-start: 5;
+        background-color: hsl(0, 0%, 100%);
+    }
+    .bg-quotation{
+        right: 20px; 
+    }
+   
+  
+}
