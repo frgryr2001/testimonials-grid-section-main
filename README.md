@@ -3,9 +3,8 @@ https://frgryr2001.github.io/testimonials-grid-section-main/
 # Frontend Mentor - Testimonials grid section
 
 ![Design preview for the Testimonials grid section coding challenge](./design/desktop-preview.jpg)
-![Design preview for the Testimonials grid section coding challenge](./design/mobile-design.jpg)
 <p align="center">
-![Design preview for the Testimonials grid section coding challenge](./design/mobile-design.jpg)
+     <img  src="./design/mobile-design.jpg" alt="mobile">
 
 </p>
 ## Welcome! 👋
