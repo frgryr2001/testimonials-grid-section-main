@@ -4,7 +4,10 @@ https://frgryr2001.github.io/testimonials-grid-section-main/
 
 ![Design preview for the Testimonials grid section coding challenge](./design/desktop-preview.jpg)
 ![Design preview for the Testimonials grid section coding challenge](./design/mobile-design.jpg)
+<p align="center">
+![Design preview for the Testimonials grid section coding challenge](./design/mobile-design.jpg)
 
+</p>
 ## Welcome! 👋
 
 Thanks for checking out this front-end coding challenge.
